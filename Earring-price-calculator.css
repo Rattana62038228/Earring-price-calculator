@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(https://theswanthailand.com/wp-content/uploads/2017/08/%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%87-065.jpg);
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Noto Sans", sans-serif;
+   
+}
+.box{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    background-color: gainsboro;
+    opacity: 0.8;
+	border-radius:10px;
+    padding:70px 100px;
+    /* font-size: 13px; */
+}
+input{
+    box-sizing: border-box;
+    border: 1px solid ;
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: black;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+  
+
+}
+input:read-only {
+    background-color:  rgba(230, 86, 86, 0.89);
+    font-size: large;
+
+  }
+
